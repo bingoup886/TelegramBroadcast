@@ -7,6 +7,7 @@
   "compatibility_flags": [
     "nodejs_compat"
   ],
+  // Preserve runtime variables configured in the Cloudflare dashboard on each deployment.
   "keep_vars": true,
   "cache": {
     "enabled": true
